@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	margin-top: 50px;
+    font-family: Georgia;
+}
+
+header {
+	display: static;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	line-height: 50px;
+	background-color: #90a9ff;
+	opacity: 1;
+    border: 1px solid black;
+}
+
+header * {
+	display: inline;
+    padding: 3px;
+	height: 0;
+}
+
+header ul {
+	padding: 0;
+}
+
+header li {
+	margin-left: 0;
+}
+
+#Overflow {
+    overflow-wrap: normal;
+    hyphens: auto;
+}
+
+section {
+	height: 100vh;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+    padding: 100px;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ALL IMAGES */
+#profile-img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+#tcacycle {
+	width: 400px;
+	float: right;
+	margin: 10px;
+	height:auto;
+	max-width: 100%;
+}
+
+.foodimages-column {
+	float: left;
+	width: 33.33%;
+	padding: 0;
+}
+
+.foodimages-row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#About-Me {
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+}
+
+#Research-Interests {
+	height: auto;
+    background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,0.90)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Metabolic_Metro_Map.svg/800px-Metabolic_Metro_Map.svg.png');
+}
+
+#Hobbies {
+    height: auto;
+	width: auto;
+}
+
+#My-Notes {
+    height: auto;
+}
+
+#Contact-Me {
+    height: 25vh;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+	text-align: center;
+	padding: 50px;
+	color:gray;
+}
+
+
+
